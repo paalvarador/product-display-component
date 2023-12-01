@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# Productly Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This small project is created as a Simplified Frontend Developer Exercise called Product Display.
 
-Currently, two official plugins are available:
+Currently, you can see the project deployed as shown below:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Github repository: https://github.com/paalvarador/product-display-component.git
+- Vercel deployed:
 
-## Expanding the ESLint configuration
+## Tech Stack used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+For this project, I used the following tech stack:
 
-- Configure the top-level `parserOptions` property like this:
+- React.js (main requirement)
+- Vite for create the react project
+- TypeScript
+- Tailwind CSS
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Explanation
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- I created a component called ProductDisplay that uses React and an interface to manage the component's props. I also have to say that the implementation of the toggle functionality was done using the hook useState to toggle between the product name and description.
+- To style the component, I used Tailwind CSS.
+- I have created a function called fetchProducts in the api.ts file to handle the functionality to fetch products using promises and fetch api.
