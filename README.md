@@ -5,7 +5,7 @@ This small project is created as a Simplified Frontend Developer Exercise called
 Currently, you can see the project deployed as shown below:
 
 - Github repository: https://github.com/paalvarador/product-display-component.git
-- Vercel deployed:
+- Vercel deploy: https://product-display-component-ltrg2jit7-paalvarador.vercel.app
 
 ## Tech Stack used
 
